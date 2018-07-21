@@ -12,7 +12,8 @@ table
     - @todos.each do |todo|
       tr
         td
-          = todo.name
+          - if loyalty().show?
+            = todo.name
         td
           = link_to 'Show', todo
         td
