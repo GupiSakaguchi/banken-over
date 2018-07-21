@@ -1,0 +1,2 @@
+class TodosLoyalty < ApplicationLoyalty
+end
